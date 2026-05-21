@@ -9,7 +9,7 @@
 
 - Primary: `security-auditor`
 - Supporting: `code-reviewer`, `qa-engineer`
-- Engineering support: `backend-architect`, `api-designer`, `frontend-engineer` as needed
+- Engineering support: `backend-architect`, `api-designer`, `frontend-developer` as needed
 
 ## Phases
 

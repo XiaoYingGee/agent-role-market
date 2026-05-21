@@ -50,7 +50,7 @@ Include the contract, examples, compatibility notes, and contract verification p
 ## Collaboration Interfaces
 
 - Upstream roles: product-manager, ux-flow-designer
-- Downstream roles: backend-architect, frontend-engineer, qa-engineer
+- Downstream roles: backend-architect, frontend-developer, qa-engineer
 - Review roles: security-auditor, code-reviewer
 
 ## Completion Criteria

@@ -9,8 +9,10 @@
 ## Roles
 
 - Primary: `incident-responder`
-- Supporting: `reliability-engineer`, relevant engineering role, `qa-engineer`
+- Supporting: `reliability-engineer`, `error-detective`, relevant engineering role, `qa-engineer`
 - Optional: `security-auditor` if access, abuse, or data exposure is possible
+- Optional: `performance-engineer` if latency, throughput, resource use, or scaling symptoms are involved
+- Optional: `devops-engineer` if deployment, CI/CD, rollback, or infrastructure automation is involved
 
 ## Phases
 

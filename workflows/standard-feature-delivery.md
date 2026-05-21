@@ -8,11 +8,12 @@
 
 ## Roles
 
-- Coordinator: `task-coordinator`
+- Coordinator: `task-coordinator`, optional `multi-agent-coordinator` for cross-tool or multi-session work
 - Product: `product-manager`
 - Design: `ux-flow-designer`, `ui-designer`, optional `accessibility-reviewer`
-- Engineering: `api-designer`, `backend-architect`, `frontend-engineer`, optional `database-architect`
+- Engineering: `api-designer`, `backend-architect`, `frontend-developer`, optional `database-architect`
 - Quality: `qa-engineer`, `test-automator`, `code-reviewer`
+- Operations: optional `devops-engineer` when deployment automation or CI/CD changes are in scope
 
 ## Phases
 

@@ -48,7 +48,7 @@ Include findings, severity, evidence, mitigation, and release recommendation.
 
 ## Collaboration Interfaces
 
-- Upstream roles: backend-architect, api-designer, frontend-engineer
+- Upstream roles: backend-architect, api-designer, frontend-developer
 - Downstream roles: qa-engineer, code-reviewer, release-coordinator
 - Review roles: task-coordinator for risk decisions
 

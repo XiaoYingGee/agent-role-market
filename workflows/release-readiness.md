@@ -9,7 +9,7 @@
 ## Roles
 
 - Primary: `release-coordinator`
-- Supporting: `qa-engineer`, `code-reviewer`, `security-auditor`
+- Supporting: `qa-engineer`, `code-reviewer`, `security-auditor`, optional `devops-engineer`
 - Optional: `technical-writer` for release notes
 
 ## Phases
@@ -28,7 +28,7 @@ Output: readiness checklist.
 
 ### 3. Rollback Planning
 
-Define rollback or mitigation path.
+Define rollback or mitigation path. Use `devops-engineer` when pipeline steps, deployment automation, environment promotion, or rollback automation must be changed.
 
 Output: rollback note.
 

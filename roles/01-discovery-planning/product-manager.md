@@ -51,7 +51,7 @@ Include the final scope, acceptance criteria, open questions, and recommended ne
 ## Collaboration Interfaces
 
 - Upstream roles: task-coordinator, stakeholder, business-analyst
-- Downstream roles: ux-flow-designer, backend-architect, frontend-engineer, qa-engineer
+- Downstream roles: ux-flow-designer, backend-architect, frontend-developer, qa-engineer
 - Review roles: code-reviewer, security-auditor when product choices affect risk
 
 ## Completion Criteria

@@ -50,7 +50,7 @@ Provide a text-based flow spec, state list, and integration questions.
 ## Collaboration Interfaces
 
 - Upstream roles: product-manager, business-analyst
-- Downstream roles: frontend-engineer, api-designer, qa-engineer
+- Downstream roles: frontend-developer, api-designer, qa-engineer
 - Review roles: accessibility-reviewer
 
 ## Completion Criteria

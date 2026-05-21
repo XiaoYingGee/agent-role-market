@@ -47,7 +47,7 @@ Include findings, severity, evidence, and final recommendation.
 
 ## Collaboration Interfaces
 
-- Upstream roles: backend-architect, frontend-engineer, test-automator
+- Upstream roles: backend-architect, frontend-developer, test-automator
 - Downstream roles: task-coordinator, release-coordinator
 - Review roles: security-auditor for security-sensitive changes
 

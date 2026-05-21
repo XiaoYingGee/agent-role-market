@@ -48,7 +48,7 @@ Include test files, commands, results, and any known gaps.
 
 ## Collaboration Interfaces
 
-- Upstream roles: qa-engineer, backend-architect, frontend-engineer
+- Upstream roles: qa-engineer, backend-architect, frontend-developer
 - Downstream roles: code-reviewer, release-coordinator
 - Review roles: qa-engineer
 

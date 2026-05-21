@@ -48,7 +48,7 @@ Include executed checks, results, defect reproduction steps, and release recomme
 
 ## Collaboration Interfaces
 
-- Upstream roles: product-manager, frontend-engineer, backend-architect
+- Upstream roles: product-manager, frontend-developer, backend-architect
 - Downstream roles: release-coordinator, task-coordinator
 - Review roles: security-auditor, code-reviewer
 

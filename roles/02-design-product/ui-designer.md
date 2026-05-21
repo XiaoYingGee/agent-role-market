@@ -50,7 +50,7 @@ Provide a text UI spec that frontend and QA can validate with implementation and
 ## Collaboration Interfaces
 
 - Upstream roles: ux-flow-designer, product-manager
-- Downstream roles: frontend-engineer, qa-engineer
+- Downstream roles: frontend-developer, qa-engineer
 - Review roles: accessibility-reviewer
 
 ## Completion Criteria

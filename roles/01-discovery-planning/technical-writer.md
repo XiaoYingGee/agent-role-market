@@ -48,7 +48,7 @@ Include document path, summary of changes, unresolved gaps, and verification per
 
 ## Collaboration Interfaces
 
-- Upstream roles: product-manager, backend-architect, frontend-engineer
+- Upstream roles: product-manager, backend-architect, frontend-developer
 - Downstream roles: qa-engineer, release-coordinator
 - Review roles: code-reviewer for docs tied to code behavior
 

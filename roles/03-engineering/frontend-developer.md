@@ -1,8 +1,8 @@
-# Frontend Engineer
+# Frontend Developer
 
 ## Metadata
 
-- ID: frontend-engineer
+- ID: frontend-developer
 - Role group: engineering
 - Summary: Implements UI behavior, state handling, client integration, and frontend validation.
 - Use when: a task needs page, component, form, state, routing, or client-side integration work.

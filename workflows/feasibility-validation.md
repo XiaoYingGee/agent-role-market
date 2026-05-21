@@ -8,7 +8,7 @@
 
 ## Roles
 
-- Primary: `backend-architect` or `frontend-engineer`, depending on the unknown
+- Primary: `backend-architect` or `frontend-developer`, depending on the unknown
 - Supporting: `api-designer`, `database-architect`, `reliability-engineer`, or `qa-engineer`
 - Coordinator: `task-coordinator`
 

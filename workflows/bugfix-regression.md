@@ -8,8 +8,8 @@
 
 ## Roles
 
-- Primary: `qa-engineer` for reproduction, then relevant engineering role for fix
-- Supporting: `test-automator`, `code-reviewer`
+- Primary: `error-detective` for diagnosis, then relevant engineering role for fix
+- Supporting: `qa-engineer`, `test-automator`, `code-reviewer`
 - Optional: `incident-responder` if user impact is active
 
 ## Phases
@@ -22,7 +22,7 @@ Output: reproducible bug report.
 
 ### 2. Diagnose
 
-Identify root cause or most likely cause with evidence.
+Identify root cause or most likely cause with evidence. Keep the fix recommendation minimal and avoid turning diagnosis into a broad implementation plan.
 
 Output: diagnosis note.
 

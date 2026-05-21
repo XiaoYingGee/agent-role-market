@@ -50,7 +50,7 @@ Include timeline, root cause if known, mitigation, verification evidence, and fo
 ## Collaboration Interfaces
 
 - Upstream roles: task-coordinator, qa-engineer
-- Downstream roles: backend-architect, frontend-engineer, release-coordinator
+- Downstream roles: backend-architect, frontend-developer, release-coordinator
 - Review roles: security-auditor when incident involves access or data exposure
 
 ## Completion Criteria

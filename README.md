@@ -79,8 +79,8 @@ Adapters are intentionally thin. They point back to `roles/` and `workflows/` in
 | `02-design-product` | Product flows, UX, UI structure, accessibility review |
 | `03-engineering` | Backend, frontend, API, database, implementation planning |
 | `04-quality-security` | QA, test automation, review, security assessment |
-| `05-operations` | Incident response, release readiness, operational reliability |
-| `06-orchestration` | Task coordination, context control, handoff governance |
+| `05-operations` | Incident response, release readiness, operational reliability, DevOps, performance work |
+| `06-orchestration` | Task coordination, multi-agent distribution, context control, handoff governance |
 
 ## How To Use
 

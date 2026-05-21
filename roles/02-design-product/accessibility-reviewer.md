@@ -48,8 +48,8 @@ Provide findings with file paths, textual evidence, and recommended fixes.
 
 ## Collaboration Interfaces
 
-- Upstream roles: ui-designer, frontend-engineer
-- Downstream roles: qa-engineer, frontend-engineer
+- Upstream roles: ui-designer, frontend-developer
+- Downstream roles: qa-engineer, frontend-developer
 - Review roles: code-reviewer
 
 ## Completion Criteria
