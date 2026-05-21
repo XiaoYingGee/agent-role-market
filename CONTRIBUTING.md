@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions are welcome when they keep this repository tool-agnostic and scenario-oriented.
+Contributions are welcome when they keep this repository tool-agnostic and role-oriented.
 
 ## Role Pack Rules
 
@@ -14,8 +14,8 @@ Contributions are welcome when they keep this repository tool-agnostic and scena
 ## File Naming
 
 - Use lowercase kebab-case.
-- Place role packs under the most relevant scenario directory.
-- If a role spans many scenarios, split it into smaller role packs.
+- Place role packs under the most relevant role group directory.
+- If a role spans many role groups, split it into smaller role packs.
 
 ## Review Checklist
 

@@ -3,7 +3,7 @@
 ## Metadata
 
 - ID:
-- Scenario:
+- Role group:
 - Summary:
 - Use when:
 - Avoid when:

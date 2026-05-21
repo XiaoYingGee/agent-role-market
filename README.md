@@ -6,7 +6,7 @@ It is designed for teams that want stable, explicit, and auditable agent behavio
 
 ## What This Repository Provides
 
-- Scenario-based role packs for common software work.
+- Role packs for common software work.
 - Workflow templates for common multi-role task patterns.
 - Clear activation boundaries: when to use a role and when not to use it.
 - Input and output contracts for each role.
@@ -26,7 +26,7 @@ The intended use is selective: choose a small number of role packs per task, ada
 ## Design Principles
 
 1. **Tool agnostic**: role packs describe capabilities and outputs, not vendor-specific commands.
-2. **Scenario first**: roles are grouped by work scenario, not by personality.
+2. **Role first**: roles are grouped by work type, not by personality.
 3. **Small surface area**: each role has a narrow responsibility and clear non-goals.
 4. **Explicit contracts**: every role defines required inputs, expected outputs, and handoff requirements.
 5. **Composable but bounded**: use one to three role packs for a task; split the task if it needs more.
@@ -36,7 +36,7 @@ The intended use is selective: choose a small number of role packs per task, ada
 
 ```text
 agent-role-market/
-  scenarios/
+  roles/
     01-discovery-planning/
     02-design-product/
     03-engineering/
@@ -53,11 +53,27 @@ agent-role-market/
     security-review.md
     release-readiness.md
     incident-response.md
+  agents/
+    .claude/
+    .codex/
+    .openclaw/
 ```
 
-## Scenarios
+## Tool Adapters
 
-| Scenario | Use For |
+The `agents/` directory contains optional adapter packages for common agent tools.
+
+| Adapter | Purpose |
+|---|---|
+| `agents/.claude/` | Claude Code-style subagent definitions |
+| `agents/.codex/` | Codex-style project instructions and skill package |
+| `agents/.openclaw/` | OpenClaw-style skill package |
+
+Adapters are intentionally thin. They point back to `roles/` and `workflows/` instead of redefining a separate private process.
+
+## Role Groups
+
+| Role group | Use For |
 |---|---|
 | `01-discovery-planning` | Requirements, planning, prioritization, documentation |
 | `02-design-product` | Product flows, UX, UI structure, accessibility review |
@@ -68,7 +84,7 @@ agent-role-market/
 
 ## How To Use
 
-1. Pick the scenario matching the task.
+1. Pick the role group matching the task.
 2. Select one primary role pack.
 3. Add at most two supporting role packs when needed.
 4. Copy the relevant role pack content into your local agent tool, skill, instruction file, or task prompt.
@@ -79,10 +95,10 @@ Example:
 ```text
 Task: design and implement a new API-backed settings page
 
-Primary role: scenarios/03-engineering/api-designer.md
+Primary role: roles/03-engineering/api-designer.md
 Supporting roles:
-  - scenarios/02-design-product/ux-flow-designer.md
-  - scenarios/04-quality-security/qa-engineer.md
+  - roles/02-design-product/ux-flow-designer.md
+  - roles/04-quality-security/qa-engineer.md
 ```
 
 ## Workflow Templates
@@ -103,7 +119,7 @@ Use workflows when a task needs multiple roles or phases.
 
 ```markdown
 Task ID:
-Scenario:
+Role group:
 Primary role:
 Supporting roles:
 Goal:
@@ -122,7 +138,7 @@ This repository is inspired by public agent role and subagent collections, espec
 
 - [wshobson/agents](https://github.com/wshobson/agents) for plugin-style organization, role boundaries, and progressive loading ideas.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) for broad subagent categorization and role discovery patterns.
-- [contains-studio/agents](https://github.com/contains-studio/agents) for scenario-oriented product, design, engineering, and operations roles.
+- [contains-studio/agents](https://github.com/contains-studio/agents) for product, design, engineering, and operations role organization.
 - [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) for studying how agent prompts are structured and separated by responsibility.
 
 The role packs in this repository are original, condensed, tool-agnostic templates. They are not copied from those projects.
