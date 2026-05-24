@@ -59,6 +59,12 @@ agent-role-market/
     .openclaw/
 ```
 
+## Quick Start
+
+See [setup/](setup/) for deployment guides. Currently supported:
+
+- [Claude Code](setup/claude-code.md) — symlink or copy agents into `~/.claude/agents/`
+
 ## Tool Adapters
 
 The `agents/` directory contains optional adapter packages for common agent tools.
