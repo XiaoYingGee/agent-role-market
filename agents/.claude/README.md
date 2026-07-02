@@ -23,5 +23,9 @@ The subagents are intentionally concise. They refer to the repository's `roles/`
 - `devops-engineer`
 - `multi-agent-coordinator`
 - `task-distributor`
+- `ai-engineer`
+- `mobile-app-builder`
+- `ux-researcher`
+- `analytics-reporter`
 
 Use only the agents needed by the project. Loading every role by default is not recommended.
