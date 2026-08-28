@@ -27,5 +27,15 @@ The subagents are intentionally concise. They refer to the repository's `roles/`
 - `mobile-app-builder`
 - `ux-researcher`
 - `analytics-reporter`
+- `workflow-architect`
+- `codebase-onboarding-engineer`
+- `software-architect`
+- `multi-agent-systems-architect`
+- `developer-tooling-engineer`
+- `minimal-change-engineer`
+- `knowledge-graph-engineer`
+- `eval-judge`
+- `secrets-hygiene-engineer`
+- `observability-engineer`
 
 Use only the agents needed by the project. Loading every role by default is not recommended.

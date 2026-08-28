@@ -79,14 +79,16 @@ Adapters are intentionally thin. They point back to `roles/` and `workflows/` in
 
 ## Role Groups
 
-| Role group | Use For |
-|---|---|
-| `01-discovery-planning` | Requirements, planning, prioritization, documentation |
-| `02-design-product` | Product flows, UX, UI structure, accessibility review |
-| `03-engineering` | Backend, frontend, API, database, implementation planning |
-| `04-quality-security` | QA, test automation, review, security assessment |
-| `05-operations` | Incident response, release readiness, operational reliability, DevOps, performance work |
-| `06-orchestration` | Task coordination, multi-agent distribution, context control, handoff governance |
+| Role group | Use For | Role packs |
+|---|---|---:|
+| `01-discovery-planning` | Requirements, planning, workflow discovery, codebase orientation, documentation | 5 |
+| `02-design-product` | Product flows, UX, UI structure, accessibility review | 4 |
+| `03-engineering` | System architecture, backend, frontend, API, data, AI, developer tooling, implementation | 11 |
+| `04-quality-security` | QA, evidence, evaluation, test automation, review, security assessment, credential hygiene | 7 |
+| `05-operations` | Incident response, release readiness, observability, reliability, DevOps, performance work | 7 |
+| `06-orchestration` | Task coordination, multi-agent distribution, context control, handoff governance | 4 |
+
+The repository currently contains 38 role packs.
 
 ## How To Use
 
@@ -143,6 +145,7 @@ Open questions:
 This repository is inspired by public agent role and subagent collections, especially:
 
 - [wshobson/agents](https://github.com/wshobson/agents) for plugin-style organization, role boundaries, and progressive loading ideas.
+- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) for specialized software-delivery, workflow, evaluation, and governance role ideas.
 - [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) for broad subagent categorization and role discovery patterns.
 - [contains-studio/agents](https://github.com/contains-studio/agents) for product, design, engineering, and operations role organization.
 - [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) for studying how agent prompts are structured and separated by responsibility.
